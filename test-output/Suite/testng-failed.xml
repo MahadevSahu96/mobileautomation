@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="WebdriverPro.web.tests.LoginTest">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="launchBrowser"/>
+          <include name="test2"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- WebdriverPro.web.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
